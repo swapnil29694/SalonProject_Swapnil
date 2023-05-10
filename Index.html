@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="Style/style.css" type="text/css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="border_box">
+        <nav>
+            <ol>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Appointment">Book Appointment</a></li>
+                <li><a href="#Workshop">Workshop</a></li>
+                <li><a href="#ContactUs">Contact Us</a></li>
+                <li><a href="blogs.html">Blogs</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ol> 
+        </nav>
+        <div>
+            <img src="Project_Images/Barber_shop_Banner.jpg" alt="" id="Banner_image" >
+        </div>
+        <div id="Services">
+            <h1>Services  </h1>
+            <figure>
+                <img src="Project_Images/Hair_Cut.jpg" alt="" class="zoom">
+                <figcaption>Hair Cut $9.99</figcaption>
+            </figure>
+                
+            <figure>
+                <img src="Project_Images/Hair_Wash.jpg" alt="">
+                <figcaption>Hair Wash  $10.99</figcaption>
+            </figure>
+            <figure>
+                <img src="Project_Images/Hair_color.jpg" alt="">
+                <figcaption>Hair Color  $11.99</figcaption>
+            </figure>
+            <figure>
+                <img src="Project_Images/Hair_Shave.jpg" alt="">
+                <figcaption>Hair Shave  $12.99</figcaption>
+            </figure>
+            <figure>
+                <img src="Project_Images/Hair_Straightning.jpg" alt="">
+                <figcaption>Hair Straight  $13.99</figcaption>
+            </figure>
+            <figure>
+                <img src="Project_Images/Facial.jpg" alt="">
+                <figcaption>Facial  $14.99</figcaption>
+            </figure>
+            <figure>
+                <img src="Project_Images/Shampoo.jpg" alt="">
+                <figcaption>Shampoo  $15.99</figcaption>
+            </figure>
+            <figure>
+                <img src="Project_Images/Beard_Trim.jpg" alt="" >
+                <figcaption>Beard Trim  $16.99</figcaption>
+            </figure>
+            <figure>
+                <img src="Project_Images/Beard_Shave.jpg" alt="">
+                <figcaption>Beard Shave  $17.99</figcaption>
+            </figure>
+            <figure>
+                <img src="Project_Images/Wedding_Cut.jpg" alt="">
+                <figcaption>Wedding Cut  $18.99</figcaption>
+            </figure>
+        </div>
+        <div id="Appointment">
+            <br>
+                <table>
+                    <thead><h1>Book Appointment</h1>
+                        <tr>
+                            <td> </td>
+                            <td><h2>Opening Time</h2></td>
+                            <td><h2>Book TimeSlot</h2></td>
+                            <td> </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="7">
+                                <img src="Project_Images/Salon_Background_Image.jpg" alt="" height="600px" width="500px">
+                            </td>
+                            <td style="background-color:#8a6633;"><p>Monday....................9AM-6PM</p> </td>
+                            <td style="background-color: #7d561d; color:white;font-weight: bold;"><label for="">First Name :</label></td>
+                            <td><input type="text" minlength="3" maxlength="20" class="hw" name="txtFirstName"></td>
+                        </tr>
+                        <tr>
+                            <td><p>Tuesday....................9AM-6PM</p> </td>
+                            <td><label for="">Last Name :</label></td>
+                            <td><input type="text" minlength="3" maxlength="20" class="hw"  name="txtLastName"></td>
+                        </tr>
+                        <tr>
+                            <td><p>Wednesday..................9AM-6PM</p></td>
+                            <td><label for="">Email Id :</label></td>
+                            <td><input type="email"  name="txtEmailId"  class="hw" ></td>
+                        </tr>
+                        <tr>
+                            <td><p>Thursday....................9AM-6PM</p></td>
+                            <td><label for="">Mobile Number :</label></td>
+                            <td><input type="number" maxlength="10"  minlength="10"  class="hw" ></td>
+                        </tr>
+                        <tr>
+                            <td><p>Friday.....................9AM-6PM</p> </td>
+                            <td><label for="TimeSlot">Select TimeSlot :</label></td>
+                            <td><select name="STime" id="selectTime"  class="hw" >
+                                <option value="0" >----Select TimeSlot----</option>
+                                <option value="1" >9AM-10AM</option>
+                                <option value="2" >10AM-11AM</option>
+                                <option value="3" >11AM-12PM</option>
+                                <option value="4" >12PM-1PM</option>
+                                <option value="5" >1PM-2PM</option>
+                                <option value="6" >2PM-3PM</option>
+                                <option value="7" >3PM-4PM</option>
+                                <option value="8" >4PM-5PM</option>
+                                <option value="9" >5PM-6PM</option>
+                              </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><p>Saturday....................9AM-6PM</p></td>
+                            <td><label for="">Enter More Details :</label></td>
+                            <td><input type="text" rows="5" cols="40"  class="hw" ></td>
+                        </tr>
+
+                        <tr>
+                            <td><p>Sunday....................9AM-6PM</p></td>
+                            <td><input class="button" type="submit" name="submit" value="Save">
+                            <input class="button" type="reset"></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+        </div>
+        <div id="Workshop">
+            
+                <h1>Upcoming Workshops</h1><br>
+                <article>
+                        <h2>1 On 1 With Barber </h2>
+                        <p> There are 8 Spots only <br>
+                            Lunch Will be Provided<br>
+                            Please bring your own Razor,Scissors,<br>
+                            Nine Row brush,Combs and blow dryer 
+                        </p>
+                        <h3>Price : $10 Per Hour</h3>
+                        <h3>  Date : 01-06-2023 Time : 9am to 5pm<br> </h3>
+                        <button class="longbutton">Register Now</button>
+                </article>
+                <article>
+                        <h2>40 Hour Fundamental Course</h2>
+                        <p>We will be teaching the fundamental of the Barber System <br>
+                            This includes Scissors Techniques, razor Techniques,<br>
+                            Clipper Techniques and blow drying/styling Techniques.<br>
+                            This is a hands on class
+                        </p>
+                        <h3>Price : $15 Per Hour </h3>
+                        <h3>  Date : 01-06-2023 Time : 9am to 5pm<br> </h3>
+                        <button class="longbutton" >Register Now</button>
+                </article>
+                <article>
+                    <h2>60 Hour Master Course</h2>
+                    <p>We will be teaching the  of the Barber System <br>
+                        This includes Scissors Techniques, razor Techniques,<br>
+                        Clipper Techniques and blow drying/styling Techniques.<br>
+                        This is a hands on class
+                    </p>
+                    <h3>Price : $20 Per Hour </h3>
+                    <h3>  Date : 01-06-2023 Time : 9am to 5pm<br> </h3>
+                    <button class="longbutton">Register Now</button>
+                </article>
+        </div>
+        <div id="ContactUs">
+            <h1>Contact Us</h1>
+            <section>
+                <h1>Reach Us</h1>
+                <ul>
+                    <li class="fa fa-home"> 123, Street ,Mumbai,India</li>  <br>
+                    <li class="fa fa-phone"></li> 9090909090 <br>
+                    <li class="fa fa-envelope"></li> info@indianbarber.com <br>
+                </ul>
+            </section>
+
+            <section>
+                <h1>Follow Us on</h1>
+                <ul>
+                    <li class="fa-brands fa-twitter"><a href="twitter.com">Twitter</a></li><br>
+                    <li class="fa-brands fa-youtube"><a href="youtube.com">Youtube</a></li><br>
+                    <li class="fa-brands fa-instagram"><a href="instagram.com">Instagram</a></li><br>
+                    <li class="fa-brands fa-facebook"><a href="facebook.com">Facebook</a></li><br>
+                    <li class="fa-brands fa-linkedin"> <a href="linkedin.com">linkedin</a></li>
+                    
+                </ul>
+            </section>
+
+            <section>
+               <p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15088.85581001002!2d72.8327385!3d19.0102916!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ceea15e91299%3A0xf1aa4af2223b9246!2sBusiness%20Arcade%20Tower!5e0!3m2!1sen!2sin!4v1683124950838!5m2!1sen!2sin" 
+                width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+            </section>
+            
+        </div>
+        <div style="text-align: center;">
+            <hr style="border:2px solid">
+            <p style="font-weight: bold ;font-size: larger;">Copyright &copy; 2023 | Salon Shop | All rights reserved</p>
+        </div>
+</body>
+</html>

@@ -1,0 +1,278 @@
+/* Style and CSS Details for Navigation Bar */
+        nav {
+            background-image: linear-gradient( #7d561d 35%,white);
+            position:fixed;
+            top:0;
+            width: 100%;
+        }
+        nav li{
+            list-style-type:none;
+            display: inline-block;
+            margin-right: 10px;
+        }
+        nav li a{
+            color:white;
+            font-weight:bolder;
+            align-items: end;
+            font-size:20px;
+            float: right;
+            padding: 0px 10px 0px 10px;
+            text-decoration: none;
+        }
+        nav li a:hover{
+            display: inline-block;
+            opacity: 0.7;
+        }
+        nav li #imgnav{
+            margin-right: 360px;
+            float: left;
+        }
+        nav ol{
+         
+            text-align-last: end;
+        }
+       /*  body{
+            background-image: url("/Project_Images/Salon_Background_Image.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+        } */
+       /*  Body div figure{
+            display: inline-block;
+        } */
+        #Banner_image{
+            height:500px;
+            width:100%;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+        }
+        /* nav li:hover{
+            
+                background-color: 256, 256, 256, .1;
+                  background-color:#ffffff;
+                  display: inline-block;
+                 filter: blur(0.5px); 
+                filter: opacity(2px); 
+        } 
+        nav li a {
+        display: block;
+        color: white;
+      
+        text-decoration: none;
+      }
+        nav li a :hover{
+            background-color: Purple;
+        } */
+/*-----------------------End Of Style css Details for Navigation Bar------------------*/
+
+/*------------------------Style css Details for Servicess---------------------*/
+        #Services Figure{
+            display: inline-block;
+            border-style: solid;
+            height: 150px;
+            width:150px;
+            border-radius: 5px;
+            background: linear-gradient(aliceblue, aliceblue), 
+                         linear-gradient(to right, #7d561d, #65350F);
+            background-origin: padding-box, border-box;
+            background-repeat: no-repeat; /* this is important */
+            border: 5px solid transparent;
+            box-shadow: 10px 20px 30px 10px #7d561d;
+         }
+         #Services figcaption{
+            text-align: center;
+            border-style: solid;
+            margin-top: 5px;
+            border-radius: 5px;
+            font-weight: bolder;
+            background: linear-gradient(aliceblue, aliceblue), 
+            linear-gradient(to right, #7d561d, #7d561d);
+            background-origin: padding-box, border-box;
+            background-repeat: no-repeat; /* this is important */
+            border: 5px solid transparent;
+            height: 20px;
+            /* box-shadow: 10px 20px 30px 10px purple; */
+        }
+        #Services Figure>img{
+             height: 130px;
+             width: 130px;
+             padding:10px;
+            /*  transition-duration: 1.5s;
+             transition-property: height; */
+         }
+         #Services Figure>img:hover{
+            /*  Height: 180px;
+             transition-duration: 1.5s;
+             transition-property: height;  */
+             transform: scale(2);
+             z-index: 2;
+             background: linear-gradient(aliceblue, aliceblue), 
+             linear-gradient(to right, #7d561d, #7d561d);
+             background-origin: padding-box, border-box;
+             background-repeat: no-repeat; /* this is important */
+             border: 5px solid transparent;
+         }
+         #Services h1{
+            text-align: center;
+            padding-top: 100px;
+         }
+         /* .zoom:hover{
+            transform: scale(1.5);
+         } */
+/*------------------End Of Style css Details for Services---------------------*/
+
+
+/*------------------Style & css for Appointment--------------------------------*/
+/* Table{
+    
+}
+table tbody>img{
+    margin: 0px,50px,10px,0px;
+} */
+#Appointment tbody{
+    box-shadow: 5px 10px 5px  #7d561d; 
+    border: 5px #65350F;
+    border-radius: 20px;
+}
+#Appointment th,td{
+    padding: 15px;
+}
+.hw{
+    height: 30Px;
+    width: 250px;
+    border-radius: 10px;
+   
+}
+#Appointment tbody td:first-child{
+    color: white;
+    font-weight: bold;
+}
+#Appointment tbody td:last-child{
+    background-color: #7d561d;
+}
+#Appointment tbody td:nth-child(2){
+    background-color: #7d561d;
+    color: white;
+    font-weight: bolder;
+}
+.button{
+    Height:35px;
+    width:70px;
+    border:5px solid #65350F;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 5px 10px 5px #7d561d;
+}
+#Appointment tbody img{
+    box-shadow: 8px 15px 5px #7d561d; 
+    border: 5px #65350F;
+    border-radius: 20px;
+}
+#Appointment{
+    padding-top: 70px;
+}
+
+/*------------------End Of Style & css for Appointment--------------------------*/
+
+/*------------------Style & css for Workshop--------------------------*/
+#Workshop article{
+    display: inline-block;
+    border: #65350F 5px solid;
+    width: 30%;
+    Height:300px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 10px 5px #7d561d  ;
+    Margin : 10px;
+}
+.border_box{
+    background-image: radial-gradient(#7d561d 10%,white);
+   
+}
+.longbutton{
+    Height:35px;
+    width:120px;
+    border:5px solid #65350F;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 5px 10px 5px #7d561d  ;
+}
+#Workshop section{
+    display: inline-block;
+    width:30%;
+    text-align:center flex;
+    align-content: stretch;
+}
+#Workshop section li{
+    padding: 5px;
+    margin: 5px;
+}
+#Workshop{
+    padding-top: 70px;
+}
+#Workshop h1{
+    text-align: center;
+}
+/*------------------ End of Style & css for Workshop--------------------------*/
+
+/*------------------ Start of Style & css for Blogs--------------------------*/
+#logs .grad{
+    float: left;
+    margin-left: 20px;
+    width:22%;
+    box-shadow: 5px 10px 5px  #7d561d; 
+    border: 5px #65350F;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    padding: 5px;
+    Height:670px;
+}
+#logs .grad h1{
+    text-align: center;/* 
+    background-color: #2196f3;
+ */
+}
+#logs .grad img{
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logs{
+    padding-top: 70px;
+}
+#logs h1{
+    text-align: center;
+}
+/*------------------ End of Style & css for Blogs--------------------------*/
+
+/*------------------Start of Style & css for Contact US--------------------------*/
+
+#ContactUs div{
+    width:32%;
+    text-align: center;
+    display: inline-block;
+}
+#ContactUs  h1{
+    /* background-color: aqua; */
+    text-align: center;
+}
+#ContactUs{
+    /* border: 5px #65350F;
+    box-shadow: 5px 10px 5px  #7d561d; 
+    border-radius: 10px; */
+    padding-top: 750px;
+}
+
+/*------------------End of Style & css for Contact US--------------------------*/
+
+/*------------------Start of Style & css for Form.css--------------------------*/
+
+/*------------------End of Style & css for Form.css--------------------------*/

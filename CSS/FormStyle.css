@@ -1,0 +1,53 @@
+
+.txt{
+    width:250px;
+    Height:30px;
+    margin-bottom: 5px;
+    padding:0px;
+    border-radius: 8px;
+    }
+.border_box{
+    background-image: radial-gradient(#7d561d 10%,white);      
+}
+.Myform{
+  
+    /* margin: 0 auto; */
+   /* 
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.main_div{
+    border:5px;
+    box-shadow: 5px 15px 5px 8px #7d561d ;
+    height: 600px;
+    width:600px;
+    padding: 15px;
+    /* display:flex;
+    justify-content: center;
+    text-align: center; */
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* body {
+    text-align: center;
+} */
+.button{
+    Height:35px;
+    width:90px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 5px 10px 5px #7d561d;
+    margin-left: 50px;
+}
+#btn_submit
+{
+    margin-left: 175px;
+}
+#rb1{
+    margin-bottom: 20px;
+}
